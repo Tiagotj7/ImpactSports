@@ -1,129 +1,183 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Impact Sports — Consultoria em Alta Performance</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Montserrat:ital,wght@0,300;0,600;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="assets/CSS/style.css">
-</head>
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="logo" href="#">IMPACT SPORTS</a>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#processo">Processo</a></li>
-         <!-- <li><a href="#oportunidades">Serviços</a></li>-->
-          <li><a href="#resultados">Resultados</a></li>
-          <li><a href="#depoimentos">Depoimentos</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-      <button id="menu-toggle" aria-label="Abrir menu">☰</button>
-    </div>
-  </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Impact Sports — Consultoria em Alta Performance</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Montserrat:ital,wght@0,300;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "cSooPxKaMTCduJTvX",
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#">IMPACT SPORTS</a>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#processo">Processo</a></li>
+            <!-- <li><a href="#oportunidades">Serviços</a></li>-->
+            <li><a href="#resultados">Resultados</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+        <button id="menu-toggle" aria-label="Abrir menu">☰</button>
+      </div>
+    </header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-bg"></div>
-    <div class="container hero-content">
-      <div class="hero-left">
-        <h1>Mais do que treino — formamos campeões.</h1>
-        <p class="sub">Preparação física, mentoria esportiva e desenvolvimento de alto rendimento para atletas que buscam a excelência.</p>
-        <a href="#contato" class="btn primary">Quero saber mais</a>
-        <p class="mentor">Mentor: <strong>Crislan Silva</strong></p>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <div class="hero-left">
+          <h1>Mais do que treino — formamos campeões.</h1>
+          <p class="sub">
+            Preparação física, mentoria esportiva e desenvolvimento de alto
+            rendimento para atletas que buscam a excelência.
+          </p>
+          <a href="#contato" class="btn primary">Quero saber mais</a>
+          <p class="mentor">Mentor: <strong>Crislan Silva</strong></p>
+        </div>
+        <div class="hero-right">
+          <img
+            src="https://imgs.search.brave.com/rr_uicoo1KPVKy9l3I9Lk4Mv1vqhVXkU0Cu257lWXtM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTc1/ODUwOTk4L3B0L2Zv/dG8vZnV0ZWJvbC1i/cmFzaWxlaXJvLWZ1/dGVib2wtam9nYWRv/ci1qb3ZlbS1mZWxp/Y2lkYWRlLWFsZWdy/aWEtYWpvZWxoYXIt/bWEuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWhYelV6TVpf/RjlBNW43dmRFbW5B/T0xJRkhESDRyaVpl/YWc2U29DMVEzSFE9"
+            alt="Crislan Silva — Impact Sports"
+            class="hero-img"
+          />
+        </div>
       </div>
-      <div class="hero-right">
-        <img src="https://imgs.search.brave.com/rr_uicoo1KPVKy9l3I9Lk4Mv1vqhVXkU0Cu257lWXtM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTc1/ODUwOTk4L3B0L2Zv/dG8vZnV0ZWJvbC1i/cmFzaWxlaXJvLWZ1/dGVib2wtam9nYWRv/ci1qb3ZlbS1mZWxp/Y2lkYWRlLWFsZWdy/aWEtYWpvZWxoYXIt/bWEuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWhYelV6TVpf/RjlBNW43dmRFbW5B/T0xJRkhESDRyaVpl/YWc2U29DMVEzSFE9" alt="Crislan Silva — Impact Sports" class="hero-img" />
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ABOUT -->
-  <section id="sobre" class="about">
-    <div class="container about-grid">
-      <div class="about-image">
-        <img src="assets/images/crislan_pf.jpg" alt="Crislan Silva - Preparador Físico">
-      </div>
-      <div class="about-content">
-        <h2>Sobre o Preparador</h2>
-        <p>Crislan Silva é estudante de Educação Física e formado em Massoterapia, com experiência no apoio à preparação física de atletas de diferentes modalidades. Sua atuação une conhecimento prático, técnicas de recuperação corporal e princípios do treinamento esportivo para otimizar o desempenho e o bem-estar dos atletas.</p>
-        <p>Com uma abordagem focada em resultados e na individualidade de cada pessoa, Crislan busca potencializar a performance tanto de esportistas amadores quanto profissionais, promovendo equilíbrio entre força, resistência e recuperação muscular.</p>
-        <div class="about-stats">
-          <div class="stat">
-            <div class="stat-number">50+</div>
-            <div class="stat-label">Atletas Treinados</div>
-          </div>
-          <div class="stat">
-            <div class="stat-number">5</div>
-            <div class="stat-label">Anos de Experiência</div>
-          </div>
-          <div class="stat">
-            <div class="stat-number">97%</div>
-            <div class="stat-label">Taxa de Sucesso</div>
+    <!-- ABOUT -->
+    <section id="sobre" class="about">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img
+            src="assets/images/crislan_pf.jpg"
+            alt="Crislan Silva - Preparador Físico"
+          />
+        </div>
+        <div class="about-content">
+          <h2>Sobre o Preparador</h2>
+          <p>
+            Crislan Silva é estudante de Educação Física e formado em
+            Massoterapia, com experiência no apoio à preparação física de
+            atletas de diferentes modalidades. Sua atuação une conhecimento
+            prático, técnicas de recuperação corporal e princípios do
+            treinamento esportivo para otimizar o desempenho e o bem-estar dos
+            atletas.
+          </p>
+          <p>
+            Com uma abordagem focada em resultados e na individualidade de cada
+            pessoa, Crislan busca potencializar a performance tanto de
+            esportistas amadores quanto profissionais, promovendo equilíbrio
+            entre força, resistência e recuperação muscular.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <div class="stat-number">50+</div>
+              <div class="stat-label">Atletas Treinados</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">5</div>
+              <div class="stat-label">Anos de Experiência</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">97%</div>
+              <div class="stat-label">Taxa de Sucesso</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- PROCESS -->
-  <section id="processo" class="process">
-    <div class="container">
-      <h2 class="section-title">Como Funciona Nosso Processo</h2>
-      <div class="process-grid">
-        <div class="process-step">
-          <div class="process-icon">
-            <i class="fas fa-clipboard-list"></i>
+    <!-- PROCESS -->
+    <section id="processo" class="process">
+      <div class="container">
+        <h2 class="section-title">Como Funciona Nosso Processo</h2>
+        <div class="process-grid">
+          <div class="process-step">
+            <div class="process-icon">
+              <i class="fas fa-clipboard-list"></i>
+            </div>
+            <h3>Avaliação Inicial</h3>
+            <p>
+              Análise completa do seu perfil, objetivos e condição física atual.
+            </p>
           </div>
-          <h3>Avaliação Inicial</h3>
-          <p>Análise completa do seu perfil, objetivos e condição física atual.</p>
-        </div>
-        <div class="process-step">
-          <div class="process-icon">
-            <i class="fas fa-dumbbell"></i>
+          <div class="process-step">
+            <div class="process-icon">
+              <i class="fas fa-dumbbell"></i>
+            </div>
+            <h3>Plano Personalizado</h3>
+            <p>
+              Desenvolvimento de um programa de treino exclusivo para suas
+              necessidades.
+            </p>
           </div>
-          <h3>Plano Personalizado</h3>
-          <p>Desenvolvimento de um programa de treino exclusivo para suas necessidades.</p>
-        </div>
-        <div class="process-step">
-          <div class="process-icon">
-            <i class="fas fa-chart-line"></i>
+          <div class="process-step">
+            <div class="process-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Acompanhamento</h3>
+            <p>
+              Monitoramento constante da evolução e ajustes no programa quando
+              necessário.
+            </p>
           </div>
-          <h3>Acompanhamento</h3>
-          <p>Monitoramento constante da evolução e ajustes no programa quando necessário.</p>
-        </div>
-        <div class="process-step">
-          <div class="process-icon">
-            <i class="fas fa-trophy"></i>
+          <div class="process-step">
+            <div class="process-icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <h3>Resultados</h3>
+            <p>Alcance de objetivos com máxima eficiência e segurança.</p>
           </div>
-          <h3>Resultados</h3>
-          <p>Alcance de objetivos com máxima eficiência e segurança.</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ALWAYS CONNECTED -->
-  <section class="always-connected">
-    <div class="container two-col">
-      <div class="left-block">
-        <h2>Treinamento Contínuo</h2>
-        <p>Exclusividade com planilhas de treino, monitoramento em tempo real e acompanhamento personalizado para que o atleta evolua constantemente.</p>
-        <a href="#contato" class="btn">Saiba mais</a>
+    <!-- ALWAYS CONNECTED -->
+    <section class="always-connected">
+      <div class="container two-col">
+        <div class="left-block">
+          <h2>Treinamento Contínuo</h2>
+          <p>
+            Exclusividade com planilhas de treino, monitoramento em tempo real e
+            acompanhamento personalizado para que o atleta evolua
+            constantemente.
+          </p>
+          <a href="#contato" class="btn">Saiba mais</a>
+        </div>
+        <div class="right-block">
+          <img
+            src="https://imgs.search.brave.com/R8LI41QPHWGygpDR4z7l33xEY6n7yl2cizYzELNuBuw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZXVyb3BlaWEucHQv/cmVzb3VyY2VzL21l/ZGlhL2ltYWdlcy9v/bGhlaXJvX2RlX2Z1/dGVib2wud2lkdGgt/NjQwLmpwZw"
+            alt="App preview"
+          />
+        </div>
       </div>
-      <div class="right-block">
-        <img src="https://imgs.search.brave.com/R8LI41QPHWGygpDR4z7l33xEY6n7yl2cizYzELNuBuw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZXVyb3BlaWEucHQv/cmVzb3VyY2VzL21l/ZGlhL2ltYWdlcy9v/bGhlaXJvX2RlX2Z1/dGVib2wud2lkdGgt/NjQwLmpwZw" alt="App preview" />
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- OPPORTUNITIES -->
-   <!--<section id="oportunidades" class="opportunities">
+    <!-- OPPORTUNITIES -->
+    <!--<section id="oportunidades" class="opportunities">
     <div class="container">
       <h2 class="section-title">Nossos Serviços</h2>
       <div class="grid-cards">
@@ -161,107 +215,163 @@
     </div>
   </section>-->
 
-  <!-- RESULTS GALLERY -->
-  <section id="resultados" class="results">
-    <div class="container">
-      <h2 class="section-title">Resultados e Transformações</h2>
-      <div class="results-grid">
-        <div class="result-item">
-          <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Transformação 1">
-          <div class="result-overlay">
-            <h4>João Silva</h4>
-            <p>Ganhou 8kg de massa muscular em 6 meses</p>
+    <!-- RESULTS GALLERY -->
+    <section id="resultados" class="results">
+      <div class="container">
+        <h2 class="section-title">Resultados e Transformações</h2>
+        <div class="results-grid">
+          <div class="result-item">
+            <img
+              src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+              alt="Transformação 1"
+            />
+            <div class="result-overlay">
+              <h4>João Silva</h4>
+              <p>Ganhou 8kg de massa muscular em 6 meses</p>
+            </div>
           </div>
-        </div>
-        <div class="result-item">
-          <img src="https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Transformação 2">
-          <div class="result-overlay">
-            <h4>Maria Santos</h4>
-            <p>Reduziu 12% de gordura corporal em 4 meses</p>
+          <div class="result-item">
+            <img
+              src="https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+              alt="Transformação 2"
+            />
+            <div class="result-overlay">
+              <h4>Maria Santos</h4>
+              <p>Reduziu 12% de gordura corporal em 4 meses</p>
+            </div>
           </div>
-        </div>
-        <div class="result-item">
-          <img src="https://imgs.search.brave.com/KZDDGTBrHarjK8hIZ2OUiNI-mfx3EfQFmODSFZt4Kc0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/LmZ1dGZhbmF0aWNz/LmNvbS5ici93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMi8wNy9D/QVBBLUJMT0ctMi5q/cGc" alt="Transformação 3">
-          <div class="result-overlay">
-            <h4>Carlos Oliveira</h4>
-            <p>Melhorou 30% no desempenho atlético</p>
+          <div class="result-item">
+            <img
+              src="https://imgs.search.brave.com/KZDDGTBrHarjK8hIZ2OUiNI-mfx3EfQFmODSFZt4Kc0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/LmZ1dGZhbmF0aWNz/LmNvbS5ici93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMi8wNy9D/QVBBLUJMT0ctMi5q/cGc"
+              alt="Transformação 3"
+            />
+            <div class="result-overlay">
+              <h4>Carlos Oliveira</h4>
+              <p>Melhorou 30% no desempenho atlético</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- QUOTE -->
-  <section class="quote">
-    <div class="container">
-      <small class="who">Crislan Silva</small>
-      <blockquote>"Não é sobre talento. É sobre dedicação, disciplina e preparação inteligente."</blockquote>
-    </div>
-  </section>
-
-  <!-- TESTIMONIALS -->
-  <section id="depoimentos" class="testimonials">
-    <div class="container">
-      <h2 class="section-title">Depoimentos</h2>
-      <div class="testi-grid">
-        <article class="testi">
-          <p class="quote-text">"O Impact Sports revolucionou minha preparação física. Em 6 meses, melhorei todos os meus índices de performance."</p>
-          <footer class="who">— Fernando Oliveira, Atleta Profissional</footer>
-        </article>
-        <article class="testi">
-          <p class="quote-text">"O programa personalizado e o acompanhamento constante foram fundamentais para alcançar meus objetivos no esporte."</p>
-          <footer class="who">— Rafael Martins, Triatleta</footer>
-        </article>
-        <article class="testi">
-          <p class="quote-text">"Graças ao suporte da Impact Sports, consegui me preparar adequadamente e conquistar minha primeira medalha no campeonato."</p>
-          <footer class="who">— Carolina Mendes, Corredora</footer>
-        </article>
+    <!-- QUOTE -->
+    <section class="quote">
+      <div class="container">
+        <small class="who">Crislan Silva</small>
+        <blockquote>
+          "Não é sobre talento. É sobre dedicação, disciplina e preparação
+          inteligente."
+        </blockquote>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- CTA SECTION -->
-  <section class="cta">
-    <div class="container">
-      <h2>Pronto para Transformar seu Desempenho?</h2>
-      <p>Agende uma consultoria gratuita e descubra como podemos potencializar seus resultados</p>
-      <a href="https://wa.link/n2qj4l" class="btn">Agendar Consultoria</a>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <footer id="contato" class="site-footer">
-    <div class="container footer-grid">
-      <div class="contact-info">
-        <h3>Entre em Contato</h3>
-        <p><strong>Telefone</strong><br/>(75) 9 8148-2035</p>
-        <p><strong>Email</strong><br/>impactsportsbr@gmail.com</p>
-        <p><strong>Endereço</strong><br/>Alagoinhas, BA</p>
-        <div class="social">
-          <a href="https://www.instagram.com/impactsports.br/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="https://wa.link/n2qj4l" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    <!-- TESTIMONIALS -->
+    <section id="depoimentos" class="testimonials">
+      <div class="container">
+        <h2 class="section-title">Depoimentos</h2>
+        <div class="testi-grid">
+          <article class="testi">
+            <p class="quote-text">
+              "O Impact Sports revolucionou minha preparação física. Em 6 meses,
+              melhorei todos os meus índices de performance."
+            </p>
+            <footer class="who">
+              — Fernando Oliveira, Atleta Profissional
+            </footer>
+          </article>
+          <article class="testi">
+            <p class="quote-text">
+              "O programa personalizado e o acompanhamento constante foram
+              fundamentais para alcançar meus objetivos no esporte."
+            </p>
+            <footer class="who">— Rafael Martins, Triatleta</footer>
+          </article>
+          <article class="testi">
+            <p class="quote-text">
+              "Graças ao suporte da Impact Sports, consegui me preparar
+              adequadamente e conquistar minha primeira medalha no campeonato."
+            </p>
+            <footer class="who">— Carolina Mendes, Corredora</footer>
+          </article>
         </div>
       </div>
+    </section>
 
-      <div class="contact-form">
-        <form id="contactForm">
-          <div class="form-row">
-            <input type="text" id="name" name="name" placeholder="Seu nome" required />
-            <input type="email" id="email" name="email" placeholder="Seu email" required />
+    <!-- CTA SECTION -->
+    <section class="cta">
+      <div class="container">
+        <h2>Pronto para Transformar seu Desempenho?</h2>
+        <p>
+          Agende uma consultoria gratuita e descubra como podemos potencializar
+          seus resultados
+        </p>
+        <a href="https://wa.link/n2qj4l" class="btn">Agendar Consultoria</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <footer id="contato" class="site-footer">
+      <div class="container footer-grid">
+        <div class="contact-info">
+          <h3>Entre em Contato</h3>
+          <p><strong>Telefone</strong><br />(75) 9 8148-2035</p>
+          <p><strong>Email</strong><br />impactsportsbr@gmail.com</p>
+          <p><strong>Endereço</strong><br />Alagoinhas, BA</p>
+          <div class="social">
+            <a
+              href="https://www.instagram.com/impactsports.br/"
+              aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://wa.link/n2qj4l" aria-label="WhatsApp"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
           </div>
-          <textarea id="message" name="message" rows="5" placeholder="Sua mensagem" required></textarea>
-          <div class="form-actions">
+        </div>
+
+        <div class="contact-form">
+          <form
+            id="contactForm"
+            action="https://formspree.io/f/mkgpqwnq"
+            method="POST"
+          >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Seu nome"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Seu email"
+              required
+            />
+
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Sua mensagem"
+              required
+            ></textarea>
+
             <button type="submit" class="btn primary">Enviar</button>
             <div id="formMsg" class="form-msg" aria-live="polite"></div>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
-    </div>
 
-    <div class="legal container">
-      <p>© 2025 Impact Sports — Todos os direitos reservados. Desenvolvido por Tiagotj7.dev</p>
-    </div>
-  </footer>
-  <script src="assets/JS/script.js"></script>
-</body>
+      <div class="legal container">
+        <p>
+          © 2025 Impact Sports — Todos os direitos reservados. Desenvolvido por
+          Tiagotj7.dev
+        </p>
+      </div>
+    </footer>
+    <script src="assets/JS/script.js"></script>
+    <script src="assets/JS/form2.js"></script>
+  </body>
 </html>
